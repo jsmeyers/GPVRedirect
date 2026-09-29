@@ -5,5 +5,11 @@
       "redirect": "https://www.axisgis.com/lowellma",
       "statusCode": 301
     }
-  ]
+  ],
+  "responseOverrides": {
+    "404": {
+      "rewrite": "/index.html",
+      "statusCode": 200
+    }
+  }
 }
