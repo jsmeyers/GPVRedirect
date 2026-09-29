@@ -1,0 +1,9 @@
+{
+  "routes": [
+    {
+      "route": "/*",
+      "redirect": "https://www.axisgis.com/lowellma",
+      "statusCode": 301
+    }
+  ]
+}
